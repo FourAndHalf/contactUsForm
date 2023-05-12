@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpeg" href="./J Logo.jpg">
+    <title>Contact Us</title>
+</head>
+<body>
+    <form>
+        <div class="container">
+            <div class="head">
+                Get In Touch
+                <div>
+                    <img src="./bulit-icon.png">
+                </div>
+            </div>
+            <div class="">
+                <input type="text" id="firstName" placeholder="First Name">
+                <input type="text" id="lastName" placeholder="Last Name">
+            </div>
+            <div class="">
+                <input type="text" id="emailId" placeholder="Your Email">
+            </div>
+            <div class="">
+                <input type="text" id="phone" placeholder="Phone Number">
+            </div>
+            <div class="">
+                <input type="text" id="address" placeholder="Address">
+            </div>
+            <div class="">
+                <select name="desiredJobTitle" id="jobTitle" required>
+                    <option value="" disabled selected>Choose an option...</option>
+                    <option value="Fullstack MERN Developer">Fullstack MERN Developer</option>
+                    <option value="Fullstack DJANGO Developer">Fullstack DJANGO Developer</option>
+                </select>
+            </div>
+            <div class="">
+                <select name="yearsOfExperience" id="yearsOfExperience" required>
+                    <option value="" disabled selected>Choose an option...</option>
+                    <option value="Below 1 year">Below 1 year</option>
+                    <option value="1-3 years">1-3 years</option>
+                    <option value="4-8 years">4-8 years</option>
+                    <option value="Over 8 years">Over 8 years</option>
+                </select>    
+            </div>
+            <div class="">
+                <textarea name="" id="workExperiences" cols="30" rows="10" placeholder="Work Experiences"></textarea>
+            </div>
+            <div class="">
+                <select name="education" id="education" required>
+                    <option value="" disabled selected>Choose an option...</option>
+                    <option value="Higher Education">Higher Education</option>
+                    <option value="Diploma">Diploma</option>
+                    <option value="Under-Graduate">Under-Graduate</option>
+                    <option value="Graduate">Graduate</option>
+                </select>
+            </div>
+            <div class="">
+                <input type="text" id="fieldOfStudy" placeholder="Field Of Study">
+            </div>
+            <div class="">
+                <input type="text" id="skills" placeholder="Your Skills">
+            </div>
+            <div>
+                <input type="text" id="salaryExpectations" placeholder="Salary Expectations">
+            </div>
+            <div>
+                <label for="resume">Upload Resume (PDF or DOCX)</label>
+                <input type="file" id="resume" name="resume">
+            </div>  
+
+            <button id="contactForm" class="button">SEND</button>
+        </div>
+    </form>
+
+    <script type="module" src="./index.js"></script>
+
+</body>
+</html>

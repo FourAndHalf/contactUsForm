@@ -1,0 +1,17 @@
+
+.container {
+    align-items: center;
+    text-align: center;
+    width: 100vp;
+    margin: 5%;
+    border-radius: 12px;
+    box-shadow: 0 0 55px gray;
+}
+
+.head {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+}
+
